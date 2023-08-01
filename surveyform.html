@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    body{
+  background-image: linear-gradient(green,yellow);
+}
+h1{
+			font-size: 35px;
+			color:red;
+      	text-align: center;
+			text-shadow: 1px 5px 10px black;
+		}
+.sai{
+  text-align: center;
+}
+ .s1{
+		 background-color:white;
+			box-shadow: 10px 10px 20px ;
+			font-family:Georgia;
+			padding:0px  10px 80px 0px;
+			margin: 10px;
+			margin-top: 10px;
+ }
+
+  </style>
+</head>
+
+<body>
+  <h1>Beginner Survey Form</h1>
+  <fieldset>
+ <legend><b>Personal Details</b></legend>
+				<label for="name">Name:</label>			
+              <input type="text" name="name" placeholder="Enter Your name" required><br />
+  <label for="address">Address:</label>
+  <input type="address" id="address" placeholder="Enter Your Address"/><br/>
+              <label for="emaail">Email:</label>
+              <input type="email" id="email" placeholder="Enter Your Email" required/><br/>
+  <label for="mobile">Number:</label>
+              <input type="tel" name="mobile" placeholder="Enter Your Number"><br />
+  
+  <b>Please Select Your Gender</b><br/>
+  <input type="radio" id="male" name="gender"/>
+  <label for="male">Male</label><br/>
+  <input type="radio" id="female" name="gender"/>
+  <label for="female">Female</label><br/>
+  <input type="radio" id="Non-binary" name="gender"/>
+  <label for="Non-binary">Non-binary</label><br/>
+  <input type="radio" id="Prefer not to say" name="gender"/>
+  <label for="Prefer not to say">Prefer not to say</label><br/>
+    </fieldset>
+  <fieldset>
+  <legend><b>Additional Information</b></legend>
+  <p><b>Enter Your Background Information</b></p>
+                  <p class="s1">Enter Your Background Information</p>
+                <p></p><br/>
+                <p ></p><br/></fieldset>
+  <div class="sai">
+    <button>submit</button>
+</div>
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
